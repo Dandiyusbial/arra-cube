@@ -30,12 +30,14 @@ body {
   font-family: "poppins", sans-serif;
   background-color: var(--bg3);
   color: #ffff;
+  
 
 
-  background-image: url(../img2/product/pngwing.com\ \(1\).png);
+  /* background-image: url(../img2/product/pngwing.com\ \(1\).png);
  background-size: cover;
  position: relative; 
- /* background-position: center; */
+ background-position: center; */
+
   /* background-image: url('../img2/BG\ web\ arra3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -158,6 +160,7 @@ body {
   position: relative;
   -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
   mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
+
 }
 
 /* .hero::after {
@@ -213,8 +216,22 @@ body {
   transition: .2s ease-out;
 }
 
-.hero .content .cta:hover{
-letter-spacing: 0.3rem;
+.hero .content .cta:hover {
+  letter-spacing: 0.3rem;
+}
+
+.section-utama {
+  background-image: url(../img2/product/pngwing.com\ \(1\).png);
+}
+
+.contact .bg {
+  background-image: url(../img2/produk-new/smoke\ 2d.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size:calc(100% - 50px);
+  z-index: 1;
+
+
 }
 
 /* About Section */
@@ -222,7 +239,9 @@ letter-spacing: 0.3rem;
 .about,
 .produk,
 .contact {
+  /* filter: grayscale(100%); */
   padding: 8rem 7% 1.4rem;
+
 }
 
 
@@ -281,7 +300,7 @@ letter-spacing: 0.3rem;
 .about .row .content p {
   margin-bottom: 0.8rem;
   font-size: 1.4rem;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 1.6;
   text-align: justify;
 }
@@ -310,14 +329,15 @@ letter-spacing: 0.3rem;
 
 .produk .produk-card {
   text-align: center;
-  border: 1px solid var(--primary2);
+  border: 5px solid var(--primary2);
   padding: 2rem;
- 
+
 }
-.produk .produk-card .produk-img img{
-width: 76%;
-height: 76%;
-padding-bottom: 1rem;
+
+.produk .produk-card .produk-img img {
+  width: 76%;
+  height: 76%;
+  padding-bottom: 1rem;
 }
 
 .produk .produk-icon {
@@ -331,7 +351,7 @@ padding-bottom: 1rem;
   height: 3rem;
   color: #ffff;
   margin: 0.3rem;
-  border: 1px solid var(--primary2);
+  border: 3px solid var(--primary2);
   border-radius: 1rem;
   display: flex;
   justify-content: center;
@@ -340,7 +360,7 @@ padding-bottom: 1rem;
 
 .produk .produk-icon a:hover {
   background-color: var(--primary2);
-  border: 1px solid var(--primary3);
+  border: 0px solid var(--primary3);
 }
 
 /* Contact Section */
@@ -524,7 +544,7 @@ footer .credit a {
 }
 
 .modal-container a {
-border-radius: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 /* Modal Animation */
@@ -579,11 +599,13 @@ border-radius: 0.5rem;
     font-size: 75%;
   }
 }
+
 /* notebook */
 @media (max-width: 1218px) {
   html {
     font-size: 75%;
   }
+
   .hero {
     min-height: 100vh;
     display: flex;
@@ -607,7 +629,8 @@ border-radius: 0.5rem;
   html {
     font-size: 62.5%;
   }
-body {
+
+  /* body {
   font-family: "poppins", sans-serif;
   background-color: var(--bg3);
 
@@ -618,7 +641,7 @@ body {
  background-size: cover;
  background-position: left;
 
-}
+} */
   .hero {
     min-height: 100vh;
     display: flex;
@@ -708,6 +731,8 @@ body {
     font-size: 1.2rem;
   }
 
+
+
   .contact .row {
     flex-wrap: wrap;
   }
@@ -775,6 +800,7 @@ body {
   html {
     font-size: 55%;
   }
+
   .modal-container {
     position: relative;
     background-color: #fefefe;
