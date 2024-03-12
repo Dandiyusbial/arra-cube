@@ -30,6 +30,17 @@ body {
   font-family: "poppins", sans-serif;
   background-color: var(--bg3);
   color: #ffff;
+
+
+  background-image: url(../img2/product/pngwing.com\ \(1\).png);
+ background-size: cover;
+ position: relative; 
+ /* background-position: center; */
+  /* background-image: url('../img2/BG\ web\ arra3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */
+
 }
 
 /* Navbar */
@@ -194,19 +205,27 @@ body {
 .hero .content .cta {
   margin-top: 1rem;
   display: inline-block;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   font-size: 1.8rem;
   color: #ffff;
   background-color: #298d63;
   border-radius: 1rem;
+  transition: .2s ease-out;
+}
+
+.hero .content .cta:hover{
+letter-spacing: 0.3rem;
 }
 
 /* About Section */
+
 .about,
 .produk,
 .contact {
   padding: 8rem 7% 1.4rem;
 }
+
+
 
 .about h2,
 .produk h2,
@@ -222,6 +241,7 @@ body {
 .contact h2 span {
   color: var(--primary2);
 }
+
 
 .produk .produk-star .star-full,
 .modal .produk-content .produk-star .star-full {
@@ -295,8 +315,9 @@ body {
  
 }
 .produk .produk-card .produk-img img{
-width: 80%;
-height: 80%;
+width: 76%;
+height: 76%;
+padding-bottom: 1rem;
 }
 
 .produk .produk-icon {
@@ -307,7 +328,7 @@ height: 80%;
 
 .produk .produk-icon a {
   width: 10rem;
-  height: 2rem;
+  height: 3rem;
   color: #ffff;
   margin: 0.3rem;
   border: 1px solid var(--primary2);
@@ -499,6 +520,11 @@ footer .credit a {
   width: 70%;
   height: 40%;
   animation: animateModal 0.5s;
+  border-radius: 1rem;
+}
+
+.modal-container a {
+border-radius: 0.5rem;
 }
 
 /* Modal Animation */
@@ -581,7 +607,18 @@ footer .credit a {
   html {
     font-size: 62.5%;
   }
+body {
+  font-family: "poppins", sans-serif;
+  background-color: var(--bg3);
 
+  color: #ffff;
+
+
+  background-image: url(../img2/product/pngwing.com\ \(1\).png);
+ background-size: cover;
+ background-position: left;
+
+}
   .hero {
     min-height: 100vh;
     display: flex;
@@ -648,8 +685,10 @@ footer .credit a {
 
   .about .row .about-img img {
     height: 24rem;
+    /* width: fit-content; */
     object-fit: cover;
     object-position: center;
+
   }
 
   .about .row .content {
