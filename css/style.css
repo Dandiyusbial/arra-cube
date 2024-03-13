@@ -221,11 +221,14 @@ body {
 }
 
 .section-utama {
-  background-image: url(../img2/product/pngwing.com\ \(1\).png);
+  background-image: url(../img2/product/pngwing\ 1.png);
+  /* background-image: cover; */
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 .contact .bg {
-  background-image: url(../img2/produk-new/smoke\ 4d.png);
+  /* background-image: url(../img2/produk-new/smoke\ 4d.png); */
   background-repeat: no-repeat;
   background-position: top right;
   background-size: calc(90% - 50px);
@@ -783,7 +786,7 @@ footer .credit a {
     left: 0;
     top: 0;
     width: auto;
-    height: auto;
+    height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.7);
   }
