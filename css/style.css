@@ -30,7 +30,7 @@ body {
   font-family: "poppins", sans-serif;
   background-color: var(--bg3);
   color: #ffff;
-  
+
 
 
   /* background-image: url(../img2/product/pngwing.com\ \(1\).png);
@@ -225,13 +225,11 @@ body {
 }
 
 .contact .bg {
-  background-image: url(../img2/produk-new/smoke\ 2d.png);
+  background-image: url(../img2/produk-new/smoke\ 4d.png);
   background-repeat: no-repeat;
   background-position: top right;
-  background-size:calc(100% - 50px);
+  background-size: calc(90% - 50px);
   z-index: 1;
-
-
 }
 
 /* About Section */
@@ -274,12 +272,7 @@ body {
 
 .about .row .about-img {
   flex: 1 1 45rem;
-}
-
-/* penyebab tidak mau atas bawah */
-.about .row .about-img {
-  flex: 1 1 45rem;
-  padding: 4rem 0;
+  /* padding: 1rem 0; */
 }
 
 /* penyebab tidak mau atas bawah */
@@ -298,7 +291,7 @@ body {
 }
 
 .about .row .content p {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
   font-size: 1.4rem;
   font-weight: 200;
   line-height: 1.6;
@@ -451,6 +444,8 @@ body {
   width: 90%;
   font-size: 1.4rem;
   text-align: left;
+  font-weight: 400;
+
   /* padding-left: 0rem; */
 }
 
@@ -532,15 +527,25 @@ footer .credit a {
 
 .modal-container {
   position: relative;
-  background-color: #fefefe;
+  background-color: rgb(121, 121, 121);
+  background-image: linear-gradient(to top right, transparent 10%, #ebebeb 50%);
   color: var(--bg);
-  margin: 10% auto;
+  margin: 8% auto;
   padding: 1.2rem;
   border: 1px solid #666;
   width: 70%;
   height: 40%;
   animation: animateModal 0.5s;
   border-radius: 1rem;
+}
+
+
+.modal .modal-content .produk-content h3 {
+  font-size: 3rem;
+}
+
+.modal .modal-content .produk-content h4 {
+  font-size: 1.2rem;
 }
 
 .modal-container a {
@@ -571,7 +576,7 @@ footer .credit a {
 }
 
 .modal-content img {
-  height: 20rem;
+  height: 18rem;
   margin-right: 2rem;
   /* margin-bottom: 2rem; */
 }
@@ -630,18 +635,7 @@ footer .credit a {
     font-size: 62.5%;
   }
 
-  /* body {
-  font-family: "poppins", sans-serif;
-  background-color: var(--bg3);
 
-  color: #ffff;
-
-
-  background-image: url(../img2/product/pngwing.com\ \(1\).png);
- background-size: cover;
- background-position: left;
-
-} */
   .hero {
     min-height: 100vh;
     display: flex;
@@ -727,8 +721,13 @@ footer .credit a {
     font-size: 1.6rem;
   }
 
-  .menu p {
-    font-size: 1.2rem;
+  .contact .bg {
+    background-image: url(../img2/produk-new/smoke\ 4d.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: calc(100% - 50px);
+    z-index: 1;
+    background-image: none;
   }
 
 
@@ -749,10 +748,11 @@ footer .credit a {
     padding: 0 0 2rem 0;
   }
 
+
   .contact .row2 form .input-group2 {
     /* display: flex; */
     margin-top: 2rem;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   /* keunggulan */
@@ -776,23 +776,48 @@ footer .credit a {
     /* Margin untuk jarak antar item */
   }
 
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
   .modal-container {
     position: relative;
-    background-color: #fefefe;
+    background-color: rgb(121, 121, 121);
+    background-image: linear-gradient(to top right, transparent 10%, #ebebeb 50%);
     color: var(--bg);
     margin: 40% auto;
     padding: 1.2rem;
-    border: 1px solid #666;
-    width: 72%;
-    height: 58%;
+    /* border: 1px solid #666; */
     animation: animateModal 0.5s;
+    justify-items: center;
+
   }
 
-
-
-  .modal-content {
+  .modal .modal-content {
     flex-wrap: wrap;
   }
+  .modal .modal-content .produk-content h3 {
+    font-size: 2rem;
+  }
+  
+  .modal .modal-content .produk-content h4 {
+    font-size: 1rem;
+  }
+
+  .modal .modal-content img {
+    width: 160px;
+    /* Ubah lebar gambar menjadi 100 piksel */
+    height: auto;
+  }
+
 }
 
 /* Mobile Phone */

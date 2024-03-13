@@ -79,6 +79,21 @@ window.onclick = (e) => {
   if (e.target === itemDetailModal5 && itemDetailModal5.style.display === "flex") {
     itemDetailModal5.style.display = "none";
   }
+  if (e.target === itemDetailModal6 && itemDetailModal6.style.display === "flex") {
+    itemDetailModal6.style.display = "none";
+  }
+  if (e.target === itemDetailModal7 && itemDetailModal7.style.display === "flex") {
+    itemDetailModal7.style.display = "none";
+  }
+  if (e.target === itemDetailModal8 && itemDetailModal8.style.display === "flex") {
+    itemDetailModal8.style.display = "none";
+  }
+  if (e.target === itemDetailModal9 && itemDetailModal9.style.display === "flex") {
+    itemDetailModal9.style.display = "none";
+  }
+  if (e.target === itemDetailModal10 && itemDetailModal10.style.display === "flex") {
+    itemDetailModal10.style.display = "none";
+  }
 };
 
 
@@ -174,6 +189,113 @@ document.querySelector("#item-detail-modal5 .button-back").onclick = (e) => {
   itemDetailModal5.style.display = "none";
   e.preventDefault();
 };
+
+// Modal Box 6
+const itemDetailModal6 = document.querySelector("#item-detail-modal6");
+const itemDetailButton6 = document.querySelectorAll(".item-detail-button6");
+
+
+itemDetailButton6.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal6.style.display = "flex";
+    e.preventDefault();
+  };
+});
+
+// klik tombol close pada Modal
+document.querySelector("#item-detail-modal6 .close-icon").onclick = (e) => {
+  itemDetailModal6.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector("#item-detail-modal6 .button-back").onclick = (e) => {
+  itemDetailModal6.style.display = "none";
+  e.preventDefault();
+};
+// Modal Box 7
+const itemDetailModal7 = document.querySelector("#item-detail-modal7");
+const itemDetailButton7 = document.querySelectorAll(".item-detail-button7");
+
+
+itemDetailButton7.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal7.style.display = "flex";
+    e.preventDefault();
+  };
+});
+
+// klik tombol close pada Modal
+document.querySelector("#item-detail-modal7 .close-icon").onclick = (e) => {
+  itemDetailModal7.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector("#item-detail-modal7 .button-back").onclick = (e) => {
+  itemDetailModal7.style.display = "none";
+  e.preventDefault();
+};
+// Modal Box 8
+const itemDetailModal8 = document.querySelector("#item-detail-modal8");
+const itemDetailButton8 = document.querySelectorAll(".item-detail-button8");
+
+
+itemDetailButton8.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal8.style.display = "flex";
+    e.preventDefault();
+  };
+});
+
+// klik tombol close pada Modal
+document.querySelector("#item-detail-modal8 .close-icon").onclick = (e) => {
+  itemDetailModal8.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector("#item-detail-modal8 .button-back").onclick = (e) => {
+  itemDetailModal8.style.display = "none";
+  e.preventDefault();
+};
+// Modal Box 9
+const itemDetailModal9 = document.querySelector("#item-detail-modal9");
+const itemDetailButton9 = document.querySelectorAll(".item-detail-button9");
+
+
+itemDetailButton9.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal9.style.display = "flex";
+    e.preventDefault();
+  };
+});
+
+// klik tombol close pada Modal
+document.querySelector("#item-detail-modal9 .close-icon").onclick = (e) => {
+  itemDetailModal9.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector("#item-detail-modal9 .button-back").onclick = (e) => {
+  itemDetailModal9.style.display = "none";
+  e.preventDefault();
+};
+// Modal Box 10
+const itemDetailModal10 = document.querySelector("#item-detail-modal10");
+const itemDetailButton10 = document.querySelectorAll(".item-detail-button10");
+
+
+itemDetailButton10.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal10.style.display = "flex";
+    e.preventDefault();
+  };
+});
+
+// klik tombol close pada Modal
+document.querySelector("#item-detail-modal10 .close-icon").onclick = (e) => {
+  itemDetailModal10.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector("#item-detail-modal10 .button-back").onclick = (e) => {
+  itemDetailModal10.style.display = "none";
+  e.preventDefault();
+};
+
 
 
 
