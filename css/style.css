@@ -533,11 +533,10 @@ footer .credit a {
   background-color: rgb(121, 121, 121);
   background-image: linear-gradient(to top right, transparent 10%, #ebebeb 50%);
   color: var(--bg);
-  margin: 8% auto;
+  margin: auto;
   padding: 1.2rem;
-  border: 1px solid #666;
   width: 70%;
-  height: 40%;
+  height: auto;
   animation: animateModal 0.5s;
   border-radius: 1rem;
 }
@@ -554,6 +553,13 @@ footer .credit a {
 .modal-container a {
   border-radius: 0.5rem;
 }
+
+.modal-container a:hover {
+  border-radius: 0.5rem;
+  background-color: #143d33;
+  
+}
+
 
 /* Modal Animation */
 @keyframes animateModal {
@@ -785,40 +791,41 @@ footer .credit a {
     z-index: 9999;
     left: 0;
     top: 0;
-    width: auto;
+    width: 100%;
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.7);
   }
 
-  .modal-container {
+  .modal .modal-container {
     position: relative;
     background-color: rgb(121, 121, 121);
     background-image: linear-gradient(to top right, transparent 10%, #ebebeb 50%);
     color: var(--bg);
-    margin: 40% auto;
+    /* WARNA TULISAN */
+    /* width:auto; */
+    height:auto;
+
+    margin:auto;
     padding: 1.2rem;
     /* border: 1px solid #666; */
     animation: animateModal 0.5s;
 
   }
 
-  .modal .modal-content {
+  .modal .modal-container .modal-content {
     flex-wrap: wrap;
   }
+  
+
   .modal .modal-content .produk-content h3 {
     font-size: 2rem;
   }
-  
+
   .modal .modal-content .produk-content h4 {
     font-size: 1rem;
   }
 
-  .modal .modal-content img {
-    width: 160px;
-    /* Ubah lebar gambar menjadi 100 piksel */
-    height: auto;
-  }
 
 }
 
