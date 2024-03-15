@@ -267,6 +267,8 @@ body {
 .modal .produk-content .produk-star .star-full {
   fill: var(--primary2);
   border: none;
+width: 40px;
+height: 40px;
 }
 
 .about .row {
@@ -532,7 +534,7 @@ footer .credit a {
   position: relative;
   background-color: rgb(121, 121, 121);
   background-image: linear-gradient(to top right, transparent 10%, #ebebeb 50%);
-  color: var(--bg);
+  color: var(--primary2);
   margin: auto;
   padding: 1.2rem;
   width: 70%;
@@ -544,10 +546,17 @@ footer .credit a {
 
 .modal .modal-content .produk-content h3 {
   font-size: 3rem;
+  color: var(--bg);
 }
 
 .modal .modal-content .produk-content h4 {
   font-size: 1.2rem;
+  color: var(--bg);
+}
+
+.modal .modal-content .produk-content p{
+  color: var(--bg);
+  padding-bottom: 0.5rem;
 }
 
 .modal-container a {
@@ -556,6 +565,7 @@ footer .credit a {
 
 .modal-container a:hover {
   border-radius: 0.5rem;
+  color:var(--primary2);
   background-color: #143d33;
   
 }
