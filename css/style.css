@@ -241,8 +241,9 @@ body {
 .modal .produk-content .produk-star .star-full {
   fill: var(--primary2);
   border: none;
-  width: 40px;
-  height: 40px;
+  width: 5%;
+  height: 5%;
+  padding-top: .5rem;
 }
 
 .about .row {
@@ -336,7 +337,7 @@ body {
 }
 
 /* catalog */
-.catalogs{
+.catalogs {
   overflow: hidden;
   /* background: cover; */
   width: 600px;
@@ -394,8 +395,14 @@ body {
   padding: 1rem 3rem;
   font-size: 1.7rem;
   color: #fff;
-  background-color: var(--primary3);
+  background-color: #298d63;
   cursor: pointer;
+  border-radius: 1rem;
+  transition: .2s ease-out;
+}
+.contact .row form .btn:hover{
+  letter-spacing: 0.3rem;
+  background: var(--gradient);
 }
 
 .contact .row2 {
@@ -531,7 +538,7 @@ footer .credit a {
 
 
 .modal .modal-content img {
-margin: auto 0;
+  margin: auto 0;
 }
 
 .modal .modal-content .produk-content h3 {
@@ -549,14 +556,24 @@ margin: auto 0;
   padding-bottom: 0.5rem;
 }
 
-.modal .modal-content .produk-content .produk-table{
-  color: var(--bg);
+.modal .box-container {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.modal .modal-content .produk-content .produk-table td{
-  
-  padding-right:10px;
+.modal .box-container .box {
+  cursor: pointer;
 }
+
+.modal .box-container .box img{
+width: 8rem;
+height: 8rem;
+}
+
+
 
 
 .modal-container .button-back {
