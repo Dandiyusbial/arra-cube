@@ -208,6 +208,7 @@ body {
   background-position: top right;
   background-size: calc(90% - 50px);
   z-index: 1;
+  padding-bottom: 2rem;
 }
 
 /* About Section */
@@ -239,7 +240,7 @@ body {
 
 .produk .produk-star .star-full,
 .modal .produk-content .produk-star .star-full {
-  fill: var(--primary2);
+  fill: #f3cb51;
   border: none;
   width: 5%;
   height: 5%;
@@ -527,7 +528,7 @@ footer .credit a {
   position: relative;
   background-color: rgb(121, 121, 121);
   background-image: linear-gradient(to top right, transparent 10%, #ebebeb 50%);
-  color: var(--primary2);
+  color: #ffbf00;
   margin: auto;
   padding: 1.2rem;
   width: 70%;
