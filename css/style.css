@@ -203,7 +203,7 @@ body {
 }
 
 .contact .bg {
-  background-image: url(../img2/produk-new/smoke\ 4d.png);
+  background-image: url(../img2/produk-new/animasi\ 1\ 1.png);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: calc(90% - 50px);
@@ -542,12 +542,12 @@ footer .credit a {
 }
 
 .modal .modal-content .produk-content h3 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: var(--bg);
 }
 
 .modal .modal-content .produk-content h4 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: var(--bg);
 }
 
@@ -756,7 +756,7 @@ height: 8rem;
   }
 
   .contact .bg {
-    background-image: url(../img2/produk-new/smoke\ 4d.png);
+    background-image: url(../img2/produk-new/animasi\ 1\ 1.png);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: calc(100% - 50px);
@@ -841,11 +841,11 @@ height: 8rem;
 
 
   .modal .modal-content .produk-content h3 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 
   .modal .modal-content .produk-content h4 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
 
