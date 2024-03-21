@@ -197,18 +197,19 @@ body {
 
 .section-utama {
   background-image: url(../img2/product/pngwing\ 1.png);
-  /* background-image: cover; */
+  background-image: cover;
   background-position: left;
   background-repeat: no-repeat;
 }
 
 .contact .bg {
+  position: relative;
   background-image: url(../img2/produk-new/animasi\ 1\ 1.png);
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: calc(90% - 50px);
+  background-size: calc(78% - 50px);
   z-index: 1;
-  padding-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 /* About Section */
@@ -401,7 +402,8 @@ body {
   border-radius: 1rem;
   transition: .2s ease-out;
 }
-.contact .row form .btn:hover{
+
+.contact .row form .btn:hover {
   letter-spacing: 0.3rem;
   background: var(--gradient);
 }
@@ -409,39 +411,36 @@ body {
 .contact .row2 {
   display: flex;
   flex-wrap: wrap;
-  padding: 5rem 0;
+  padding: 5.5rem 0;
 }
 
 
-.row2 .contact2 {
+/* .row2 .contact2 {
   flex: 1 1 45rem;
-  /* padding: 5rem 0; */
 }
 
 
 .row2 .contact2 img {
   width: 100%;
-}
+} */
 
 .contact .row2 form {
-  flex: 1 1 45rem;
+  flex: 1 1 50rem;
   width: 100%;
-  /* padding-top: 10rem; */
-  /* keterangan padding 5rem (atas bawah) 2rem (kirikanan) */
 }
 
 .contact .row2 form .input-group2 {
   display: flex;
-  margin-top: 2rem;
-  padding: 0 5rem;
+  margin-top: 1rem;
+  padding: .5rem 5rem;
 }
 
-.contact .row2 form .input-group2 p {
-  width: 90%;
+.contact .row2 form .input-group2 span {
+  width: 60.6%;
   font-size: 1.4rem;
   text-align: left;
   font-weight: 400;
-  /* padding-left: 0rem; */
+  padding-left: 1rem;
 }
 
 
@@ -449,8 +448,7 @@ body {
 .row3 {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
-  padding: 2rem 0 0 0;
+  padding: 1rem 0;
 }
 
 .row3 p {
@@ -565,13 +563,10 @@ footer .credit a {
   flex-wrap: wrap;
 }
 
-.modal .box-container .box {
-  cursor: pointer;
-}
 
-.modal .box-container .box img{
-width: 8rem;
-height: 8rem;
+.modal .box-container .box img {
+  width: 8rem;
+  height: 8rem;
 }
 
 
@@ -582,7 +577,7 @@ height: 8rem;
 }
 
 .modal-container .button-back:hover {
-  background:var(--gradient);
+  background: var(--gradient);
 
 }
 
@@ -640,6 +635,10 @@ height: 8rem;
   }
 }
 
+
+
+
+
 /* notebook */
 @media (max-width: 1218px) {
   html {
@@ -660,6 +659,9 @@ height: 8rem;
     mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
   }
 
+  .contact .bg {
+    background: none;
+  }
 
 }
 
@@ -737,7 +739,6 @@ height: 8rem;
 
   .about .row .about-img img {
     height: 24rem;
-    /* width: fit-content; */
     object-fit: cover;
     object-position: center;
 
@@ -757,14 +758,9 @@ height: 8rem;
   }
 
   .contact .bg {
-    background-image: url(../img2/produk-new/animasi\ 1\ 1.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: calc(100% - 50px);
-    z-index: 1;
+
     background-image: none;
   }
-
 
 
   .contact .row {
@@ -775,26 +771,29 @@ height: 8rem;
     height: 30rem;
   }
 
-  .contact .row form {
-    padding-top: 0;
-  }
 
-  .contact .row2 {
-    padding: 0 0 2rem 0;
+  .contact .row2 form {
+    flex: 1 1 80rem;
+    width: 100%;
   }
-
 
   .contact .row2 form .input-group2 {
-    /* display: flex; */
-    margin-top: 2rem;
-    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
   }
 
-  /* keunggulan */
+  .contact .row2 form .input-group2 span {
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: 400;
+    padding-left: 1rem;
+  }
+
   .row3 {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
 
   .row3 {
