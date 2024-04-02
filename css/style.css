@@ -205,6 +205,7 @@ body {
 .contact .bg {
   position: relative;
   background-image: url(../img2/produk-new/animasi\ 1\ 1.png);
+  background-image: cover;
   background-repeat: no-repeat;
   background-position: top right;
   background-size: calc(78% - 50px);
@@ -415,15 +416,6 @@ body {
 }
 
 
-/* .row2 .contact2 {
-  flex: 1 1 45rem;
-}
-
-
-.row2 .contact2 img {
-  width: 100%;
-} */
-
 .contact .row2 form {
   flex: 1 1 50rem;
   width: 100%;
@@ -559,7 +551,6 @@ footer .credit a {
   padding-top: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
