@@ -631,9 +631,13 @@ footer .credit a {
 
 
 /* notebook */
-@media (max-width: 1218px) {
+@media (max-width: 1330px) {
   html {
     font-size: 75%;
+  }
+
+  .navbar .navbar-nav .catalog{
+    display: none;
   }
 
   .hero {
